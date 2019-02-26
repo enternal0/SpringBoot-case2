@@ -1,0 +1,23 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.dan.springboot.config.PayPerporties",
+      "name": "app.pay",
+      "type": "com.dan.springboot.config.PayPerporties"
+    },
+    {
+      "sourceType": "com.dan.springboot.config.PayPerporties",
+      "name": "app.pay.alipay",
+      "sourceMethod": "getAlipay()",
+      "type": "com.dan.springboot.config.PayPerporties$Alipay"
+    },
+    {
+      "sourceType": "com.dan.springboot.config.PayPerporties",
+      "name": "app.pay.wx-pay",
+      "sourceMethod": "getWxPay()",
+      "type": "com.dan.springboot.config.PayPerporties$WxPay"
+    }
+  ],
+  "properties": []
+}
